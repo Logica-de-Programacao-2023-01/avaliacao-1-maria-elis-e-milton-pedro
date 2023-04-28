@@ -1,4 +1,5 @@
-package main
+package q1
+imports "errors"
 
 func DivideWatermelon(weight int) (bool, error) {
 	if weight <= 0 {
