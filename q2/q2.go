@@ -12,8 +12,6 @@ package q2
 //
 //Ajude os amigos a encontrar o número de problemas para os quais eles escreverão uma solução.
 
-package q2
-
 func ProblemsSolved(answers [][3]bool) int {
 	contagem := 0
 	for i := 0; i < len(answers); i++ {
