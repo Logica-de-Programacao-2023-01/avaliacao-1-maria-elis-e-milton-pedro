@@ -1,16 +1,4 @@
-package q1
-
-import (
-	"fmt"
-	"testing"
-)
-
-func TestDivideWatermelon(t *testing.T) {
-	tests := []struct {
-		weight      int
-		expected    bool
-		expectedErr bool
-	package main
+package main
 
 import "errors", "fmt"
 
@@ -22,7 +10,5 @@ func DivideWatermelon(weight int) (bool, error) {
 		return true, nil
 	}
 	return false, nil
-
-}
 
 }
