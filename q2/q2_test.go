@@ -13,5 +13,5 @@ func ProblemsSolved(answers [][3]bool) int {
 			contagem++
 		}
 	}
-	return contagem
+	return 0, nil
 }
