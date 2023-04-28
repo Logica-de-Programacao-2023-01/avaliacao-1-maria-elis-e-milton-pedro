@@ -1,8 +1,4 @@
 package q2
-
-import (
-	"fmt"
-	"testing"
 )
 func ProblemsSolved(answers [][3]bool) int {
 	contagem := 0
