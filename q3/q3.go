@@ -12,7 +12,6 @@ package q3
 //
 //Se M ou N forem iguais ou menores que 0, a função deve retornar um erro.
 
-package q3
 
 import "fmt"
 
